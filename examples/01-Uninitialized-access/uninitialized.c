@@ -15,3 +15,10 @@ int foo (int* array )
 
   return 0;
 }
+
+int main () 
+{
+  int array [4] = {13, 7, 42, 0};
+  foo( array);
+  return 0;
+}
