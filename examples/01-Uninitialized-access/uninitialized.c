@@ -1,7 +1,7 @@
 int foo (int* array )
 {
   //int array[5] = {13, 7, 42, 0, 1};
-  int i, n=5;
+  int i, n=TIS_interval (0,255);
 
   for (i = 0; i < 5; i++) {
     /* The variable 'n' is declared at line 4, but is never
