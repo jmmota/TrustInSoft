@@ -2,7 +2,7 @@
 
 int foo (int* array , int n )
 {
-  /*@ requires n = 5 ;
+  /*@ requires n == 5 ;
   ensures n >= 10;
   */
   //int array[5] = {13, 7, 42, 0, 1};
