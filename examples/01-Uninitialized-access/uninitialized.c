@@ -1,4 +1,4 @@
-int main(int* array )
+int foo (int* array )
 {
   //int array[5] = {13, 7, 42, 0, 1};
   int i, n=5;
