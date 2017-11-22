@@ -23,6 +23,6 @@ int main ()
 {
   
   int array [4] = {13, 7, 42, 0};
-  foo( array, n);
+  foo( array);
   return 0;
 }
