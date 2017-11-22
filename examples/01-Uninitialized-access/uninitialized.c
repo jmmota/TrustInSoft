@@ -1,12 +1,10 @@
 //#include "tis_builtins.h"
 
-int foo (int* array , int n )
+int foo (int* array  )
 {
-  /*@ requires n == 5 ;
-  ensures n >= 10;
-  */
+  
   //int array[5] = {13, 7, 42, 0, 1};
-  int i; //, n= 5; //tis_interval (0,255);
+  int i, n= 5; //tis_interval (0,255);
 
   for (i = 0; i < 5; i++) {
     /* The variable 'n' is declared at line 4, but is never
@@ -23,7 +21,6 @@ int foo (int* array , int n )
 
 int main () 
 {
-  int = 5;
   
   int array [4] = {13, 7, 42, 0};
   foo( array, n);
